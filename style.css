@@ -8,3 +8,51 @@
     line-height: 1.6;
     letter-spacing: 0.02em;
 }
+.header {
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.45)
+    ),
+    url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') center/cover no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+    position: absolute;
+}
+
+.header-content {
+    max-width: 600px;
+}
+
+.header-text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.header-text p {
+    font-size: 1.1rem;
+    color: #eaeaea;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #6fa8a1;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #5c948d;
+    transform: translateY(-2px);
+}
+
