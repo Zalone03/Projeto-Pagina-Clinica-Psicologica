@@ -31,6 +31,15 @@ The project reflects real client needs, such as:
 
 ---
 
+
+## How to run
+
+```bash
+git clone https://github.com/Zalone03/Projeto-Pagina-Clinica-Psicologica.git
+```
+
+Open `index.html` in your browser. No installation required.
+
 ## 🛠 Tech Stack
 
 <p align="left">
